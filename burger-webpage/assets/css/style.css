@@ -1,0 +1,277 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+
+        .navbar {
+            position: fixed !important;
+            display: block !important;
+            top: 0;
+            width: 100%;
+            background-color: ghostwhite;
+            padding: 25px 50px;
+            z-index: 1000;
+        }
+
+        .navbar div {
+            float: left;
+            position: fixed;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            float: right;
+            margin-right: 10%;
+
+        }
+
+        .navbar ul li {
+            float: left;
+            padding: 0 15px;
+        }
+
+        .banner {
+            position: relative;
+        }
+
+        .banner img {
+            width: 1600px;
+            height: auto;
+            border-style: none;
+            vertical-align: middle;
+            max-width: 100%;
+        }
+
+        .banner h1 {
+            position: absolute;
+            font-size: 36px !important;
+            line-height: 1.5;
+            box-sizing: inherit;
+            font-weight: 400;
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }
+
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 50px auto 10px auto;
+        }
+
+        .hero h1 {
+            line-height: 20px;
+            box-sizing: inherit;
+            font-size: 36px;
+            font-weight: 400;
+            margin: 10px 0;
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+            text-align: center !important;
+        }
+
+        .hero h3 {
+            line-height: 1.5;
+            box-sizing: inherit;
+            font-size: 20px;
+            font-weight: 400;
+            margin: 10px 0;
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }
+
+        .hero p {
+            margin: 10px 0;
+            color: #757575 !important;
+            font-family: "Times New Roman", Georgia, Serif;
+        }
+
+        .hero_img {
+            flex: 1 1 400px;
+            padding: 20px;
+            text-align: center;
+            width: 50%;
+        }
+
+        .hero_img img {
+            box-sizing: inherit;
+            border-style: none;
+            vertical-align: middle;
+            max-width: 90%;
+            border-radius: 4px;
+            opacity: 0.75;
+        }
+
+        .hero_content {
+            flex: 1 1 400px;
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            font-size: 15px;
+            line-height: 2.3;
+            font-family: "Times New Roman", Georgia, Serif;
+            box-sizing: inherit;
+            padding: 26px 45px !important;
+
+        }
+
+        .hero div h1 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: justify;
+        }
+
+        .menu_content {
+            flex: 1 1 400px;
+            width: 50%;
+            height: 100%;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 50px auto 10px auto;
+        }
+
+        .menu h1 {
+            line-height: 1.5;
+            box-sizing: inherit;
+            font-size: 36px;
+            font-weight: 400;
+            margin: 10px 0;
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+            text-align: center !important;
+        }
+
+        .menu_img {
+            flex: 1 1 400px;
+            padding: 20px;
+            text-align: center;
+            width: 50%;
+
+        }
+
+        .menu_img img {
+            width: 65%;
+            box-sizing: inherit;
+            margin: 10px 0;
+            border-style: none;
+            vertical-align: middle;
+            height: auto;
+            border-radius: 0px;
+            opacity: 0.75;
+        }
+
+        .menu_items {
+            text-align: start;
+            list-style-type: none;
+            font-size: 18px;
+            line-height: 20px;
+            font-family: "Times New Roman", Georgia, Serif;
+            box-sizing: inherit;
+            float: left;
+            padding: 20px 100px !important;
+            width: 50%;
+        }
+
+        .menu_items li h2 {
+            line-height: 1.5;
+            box-sizing: inherit;
+            font-size: 20px;
+            font-weight: 400;
+            margin: 10px 0;
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }
+
+        .menu_items li h5 {
+            margin: 10px 0;
+            color: #757575 !important;
+            font-family: "Times New Roman", Georgia, Serif;
+        }
+
+        .contact {
+            width: 90%;
+            padding-left: 50px;
+            margin: 10px, 0;
+            font-size: 15px;
+            line-height: 1.5;
+            font-family: "Times New Roman", Georgia, Serif;
+            box-sizing: inherit;
+            padding-bottom: 200px !important;
+        }
+
+        .contact h1 {
+            padding-bottom: 35px;
+            line-height: 1.5;
+            box-sizing: inherit;
+            font-size: 36px;
+            font-weight: 400;
+            margin: 10px 0;
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }
+
+        .contact p {
+            padding-bottom: 10px;
+            font-size: 15px;
+            line-height: 1.5;
+            font-family: "Times New Roman", Georgia, Serif;
+            box-sizing: inherit;
+        }
+
+        .contact h4 {
+            padding-bottom: 10px;
+            line-height: 1.5;
+            font-family: "Times New Roman", Georgia, Serif;
+            box-sizing: inherit;
+            font-size: 18px !important;
+            color: #607d8b !important;
+        }
+
+        .contact input {
+            width: 80%;
+            font-size: 15px;
+            line-height: 1.5;
+            font-family: "Times New Roman", Georgia, Serif;
+            box-sizing: inherit;
+            padding: 15px 20px;
+            border: none;
+            border-bottom: solid lightgray 2px;
+            margin-bottom: 15px;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            border: none;
+        }
+        .contact_img
+        {
+            background-color: darkgray;
+        }
+
+        footer {
+            height: 100px;
+            text-align: center;
+            position: relative;
+            background-color: lightgray;
+        }
+        input {
+            width: 100%;
+            padding: 20px;
+            border:none;
+            border-bottom:1px solid gray;
+        }
+
+        footer p {
+            height: 100%;
+            line-height: 100px;
+        }
